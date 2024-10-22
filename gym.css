@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;600;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    font-family: "Palanquin Dark";
+}
+
+body{
+    background-image: url(images/3d-white-wave-texture-background-concept-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: 1550px 928px;
+    padding-bottom: 1000px;
+}
+
+.unleash{
+    user-select: none;
+}
+
+a{
+    padding: 12px;
+}
+
+.top-nav{
+    background-color: black;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.nav-links{
+    font-family: "Itim", cursive;
+}
+
+.logo{
+    width:219px;
+    height:73px;
+}
+.sign{
+    height:43.17px;
+    width:163.06px;
+    background-color: rgb(217, 217, 217);
+    font-family: "Inter", sans-serif;
+    border-radius: 26px;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    border-style: solid;
+    border-color: rgb(155, 52, 52);
+}
+.gymboi{
+    position: absolute;
+    width: 595px;
+    height: 777px;
+    right:1000px;
+    overflow:hidden;
+    z-index: -1;
+}
+
+.unleash{ 
+    color: black;
+    margin-left: 550px;
+    margin-top: 150px;
+    font-family: "Palanquin Dark", sans-serif;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 80px;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+.join{
+    margin-left: 72vw;
+    border: none;
+    font-family: "Palanquin Dark",sans-serif;
+    color: black;
+    background-color: rgb(87, 85, 85);
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size:36px;
+    position: absolute;
+    top:500px;
+    transition: ease-in 300ms;
+}
+
+.legacy{
+    margin-top: 150px;
+    color:rgb(155, 52, 52);
+    font-family: "Palanquin Dark", sans-serif;
+    background-color: black;
+    z-index: 2;
+    text-align: center;
+    font-size: 55px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+}
+.about{
+    background-color: black;
+    color: white;
+    font-size: 36px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    padding-top: 25px;
+    padding-left: 60px;
+}
+
+.suh{
+    margin-left: 850px;
+    color: rgb(166, 49, 49); 
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: "Palanquin Dark";
+    position: absolute;
+    top: 475px;
+    right:450px;
+}
+
+.site-footer {
+    background-color: #892222; /* Dark background */
+    color: #ecf0f1; /* Light text color */
+    padding: 20px 0;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #3498db; /* Light blue on hover */
+}
+
+.footer-copy {
+    font-size: 14px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #444;
+}
+
+.course-list, .training-list, .pricing-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.course-item, .training-item, .pricing-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.course-item h3, .training-item h3, .pricing-item h3 {
+    font-size: 1.5rem;
+    color: #a72e2e;
+    margin-bottom: 15px;
+}
+
+.top-nav button{
+    transition: 0.2s ease-in-out;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color:black;
+    line-height: 1.6;
+    padding-bottom: 50px;
+}
+
+.top-nav a{
+    transition: 0.3s ease-in-out;
+}
+
+strong {
+    color: #333;
+}
+
+.footer {
+    background-color: #892222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.footer p {
+    font-size: 1rem;
+    color: white ;
+    background-color: #892222;
+}
+
+.join:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.top-nav button:hover{
+    background-color:rgb(155, 52, 52);
+    color: white;
+    border-style: solid;
+    border-color: rgb(155, 52, 52);
+}
+
+.top-nav a:hover{
+    color: rgb(155, 52, 52);
+    border: none;
+}
+
